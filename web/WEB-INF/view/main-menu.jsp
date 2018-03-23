@@ -11,8 +11,8 @@
     <title>Main page</title>
   </head>
   <body>
-    <a href="/showForm">Hello World form</a>
-    <a href="/processForm">Hello World response</a>
+    <a href="hello/showForm">Hello World form</a>
+    <a href="hello/processForm">Hello World response</a>
   <<br>
   <img src="${pageContext.request.contextPath}/resources/images/stonog.png"/>
 

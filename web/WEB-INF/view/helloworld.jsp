@@ -12,5 +12,10 @@
 </head>
 <body>
     Student name: ${param.studentName}
+
+<br>
+
+    The message is: ${message}
+
 </body>
 </html>

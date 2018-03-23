@@ -18,5 +18,11 @@
         <input type="submit"/>
     </form>
 
+    <form action="processFormVersionTwo" methods="GET">
+        <input type="text" name="studentName"
+               placeholder="What's your name to be uppercased?"/>
+        <input type="submit"/>
+    </form>
+
 </body>
 </html>

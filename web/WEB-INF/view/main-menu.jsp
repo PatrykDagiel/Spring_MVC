@@ -13,5 +13,8 @@
   <body>
     <a href="/showForm">Hello World form</a>
     <a href="/processForm">Hello World response</a>
+  <<br>
+  <img src="${pageContext.request.contextPath}/resources/images/stonog.png"/>
+
   </body>
 </html>

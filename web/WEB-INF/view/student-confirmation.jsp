@@ -14,5 +14,7 @@
     This student confirmed is ${student.firstName} ${student.lastName}
     <br>
     Student's country: ${student.country}
+    <br>
+    Student's favourite language is: ${student.favoriteLanguage}
 </body>
 </html>

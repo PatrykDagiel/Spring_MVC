@@ -13,7 +13,8 @@
   <body>
     <a href="hello/showForm">Hello World form</a>
     <a href="hello/processForm">Hello World response</a>
-  <<br>
+    <a href="/student/showForm">Student registration Form</a>
+  <br>
   <img src="${pageContext.request.contextPath}/resources/images/stonog.png"/>
 
   </body>

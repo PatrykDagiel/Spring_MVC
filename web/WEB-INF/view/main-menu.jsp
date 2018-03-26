@@ -11,9 +11,11 @@
     <title>Main page</title>
   </head>
   <body>
-    <a href="hello/showForm">Hello World form</a>
-    <a href="hello/processForm">Hello World response</a>
-    <a href="/student/showForm">Student registration Form</a>
+    <a href="hello/showForm">Hello World form</a> <br>
+    <a href="hello/processForm">Hello World response</a> <br>
+    <a href="/student/showForm">Student registration Form</a> <br>
+  <br>
+  <br>
   <br>
   <img src="${pageContext.request.contextPath}/resources/images/stonog.png"/>
 

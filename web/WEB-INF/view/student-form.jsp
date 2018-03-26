@@ -7,7 +7,6 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core"  prefix="c" %>
 
 <!DOCTYPE html>
 
@@ -33,12 +32,6 @@
         Mac <form:checkbox path="operatingSystems" value="Mac"/>
         Windows <form:checkbox path="operatingSystems" value="Windows"/>
         <br>
-        Operating Systems:
-        <ul>
-            <c:forEach var="temp" items="${student.operatingSystems}"/>
-            <li> ${temp} </li>
-        </ul>
-
     </form:form>
 
     

@@ -14,6 +14,7 @@
     <a href="hello/showForm">Hello World form</a> <br>
     <a href="hello/processForm">Hello World response</a> <br>
     <a href="/student/showForm">Student registration Form</a> <br>
+    <a href="/customer/showForm">Customer registration Form</a> <br>
   <br>
   <br>
   <br>

@@ -11,6 +11,7 @@
 <head>
     <style>
         .error {color:red}
+        .error2 {color:darkred}
     </style>
     <title>Customer registration form</title>
 </head>
@@ -24,8 +25,12 @@
 
         Free passes: <form:input path="freePasses"/>
         <form:errors path="freePasses" cssClass="error" />
-
         <br>
+        Postal code: <form:input path="postalCode"/>
+        <form:errors path="postalCode" cssClass="error2" />
+        <br>
+        <br>
+
         <input type="submit" value="Submit">
     </form:form>
 </body>

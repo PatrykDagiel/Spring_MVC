@@ -1,8 +1,13 @@
 package mvc.demo;
 
+import mvc.validation.CourseCode;
+
 import javax.validation.constraints.*;
 
 public class Customer {
+
+    @CourseCode
+
     private String firstName;
 
     @Pattern(regexp="^[a-zA-Z0-9]{5}", message="only 5 characters or digit")

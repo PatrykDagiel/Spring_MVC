@@ -6,7 +6,8 @@ import javax.validation.constraints.*;
 
 public class Customer {
 
-    @CourseCode
+    @CourseCode(value = {"TOPS", "LUV"}, message = "must start with TOPS or LUV")
+    private String courseCode;
 
     private String firstName;
 
@@ -54,5 +55,13 @@ public class Customer {
 
     public void setPostalCode(String postalCode) {
         this.postalCode = postalCode;
+    }
+
+    public String getCourseCode() {
+        return courseCode;
+    }
+
+    public void setCourseCode(String courseCode) {
+        this.courseCode = courseCode;
     }
 }

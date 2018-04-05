@@ -11,9 +11,9 @@ import java.lang.annotation.Target;
 @Target({ElementType.METHOD, ElementType.FIELD})
 @Retention(RetentionPolicy.RUNTIME)
 public @interface CourseCode {
-    public String value() default "LUV";
+    public String[] value() default {"TOPS"};
 
-    public String message() default "must start with LUV";
+    public String message() default "must start with LUV or TOPS";
 
     //define default groups
     public Class<?>[] groups() default {};
